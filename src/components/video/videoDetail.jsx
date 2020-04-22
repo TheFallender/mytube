@@ -38,7 +38,6 @@ const VideoDetail = props => {
             }
         }).then(response => {
             setVideoInfo(response.data.items[0]);
-            console.log(response);
         });
     }
 
