@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mytube/static/css/main.97268754.chunk.css",
-    "main.js": "/mytube/static/js/main.71ff6bd6.chunk.js",
-    "main.js.map": "/mytube/static/js/main.71ff6bd6.chunk.js.map",
+    "main.js": "/mytube/static/js/main.b6138310.chunk.js",
+    "main.js.map": "/mytube/static/js/main.b6138310.chunk.js.map",
     "runtime-main.js": "/mytube/static/js/runtime-main.c9fa9c26.js",
     "runtime-main.js.map": "/mytube/static/js/runtime-main.c9fa9c26.js.map",
     "static/js/2.52ac4e14.chunk.js": "/mytube/static/js/2.52ac4e14.chunk.js",
     "static/js/2.52ac4e14.chunk.js.map": "/mytube/static/js/2.52ac4e14.chunk.js.map",
     "index.html": "/mytube/index.html",
-    "precache-manifest.0ede54a69ade4ec61bb9990d914fa186.js": "/mytube/precache-manifest.0ede54a69ade4ec61bb9990d914fa186.js",
+    "precache-manifest.72716476f2263c2d874d1b3b359018c7.js": "/mytube/precache-manifest.72716476f2263c2d874d1b3b359018c7.js",
     "service-worker.js": "/mytube/service-worker.js",
     "static/css/main.97268754.chunk.css.map": "/mytube/static/css/main.97268754.chunk.css.map",
     "static/js/2.52ac4e14.chunk.js.LICENSE.txt": "/mytube/static/js/2.52ac4e14.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.c9fa9c26.js",
     "static/js/2.52ac4e14.chunk.js",
     "static/css/main.97268754.chunk.css",
-    "static/js/main.71ff6bd6.chunk.js"
+    "static/js/main.b6138310.chunk.js"
   ]
 }
