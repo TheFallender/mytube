@@ -103,6 +103,12 @@
     height: 60%;
 }
 
+.Recommendations {
+    width: 20%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
 /*Video List*/
 .VideoList {
     width: 100%;
