@@ -12,6 +12,7 @@ const PlaylistItem = props => {
                 <img className="PlaylistItemImg" src={data.snippet.thumbnails.medium.url} alt={"playlistItem" + data.id.playlistId + "-pic"}/>
                 <div className="WrapperItemInfo">
                     <p><b>{data.snippet.title}</b></p>
+                    <label>Channel: </label>
                     <a href={"https://www.youtube.com/channel/" + data.snippet.channelId} className="noDec" style={{width: "100%", color: "red"}}>
                         {data.snippet.channelTitle}
                     </a>

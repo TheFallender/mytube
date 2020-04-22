@@ -13,6 +13,7 @@ const VideoItem = props => {
             <img className="VideoItemImg" src={data.snippet.thumbnails.medium.url} alt={"videoItem" + data.id.videoId + "-pic"}/>
             <div className="WrapperItemInfo">
                 <p><b>{data.snippet.title}</b></p>
+                <label>Channel: </label>
                 <a href={"https://www.youtube.com/channel/" + data.snippet.channelId} className="noDec" style={{width: "100%", color: "red"}}>
                     {data.snippet.channelTitle}
                 </a>
