@@ -54,10 +54,7 @@ const VideoDetail = props => {
             <div className="VideoSection">
                 <iframe
                     title="VideoPlayer"
-                    style={{
-                        width: "100%",
-                        height: "100%"
-                    }}
+                    className="VideoPlayer"
                     src={`https://www.youtube.com/embed/${id}`}
                     frameBorder="0"
                 />

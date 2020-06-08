@@ -38,7 +38,7 @@ const SearchBar = props => {
     return (
         <div className="SearchBar">
             <form className="SearchBarForm"onSubmit={(event) => submitHandler(event, searchTerm)}>
-                <input className="SearchBarInput" type="text" value={searchTerm} onChange={searchHandler}/>
+                <input className="SearchBarInput" type="text" placeholder="Some text" value={searchTerm} onChange={searchHandler}/>
                 <input className="SearchBarIcon selectDisable" type="image" id="image" alt="Login" src={search}/>
                 <input type="submit" hidden/>
             </form>

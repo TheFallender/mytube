@@ -21,15 +21,17 @@
 }
 
 .Content {
-    width: 50%;
-    height: 92%;
-    margin: auto;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    top: 50px;
 }
 
 .ContentPlayer {
     width: 95%;
     height: 92%;
     margin: 1% auto 0 auto;
+    margin-top: 50px;
 }
 
 .ContentSub {
@@ -39,8 +41,14 @@
 
 /*Header*/
 .Header {
-    height: 8%;
     width: 100%;
+    height: 8%;
+}
+
+.HeaderBack {
+    height: 100%;
+    width: 100%;
+    padding: 3px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,43 +59,44 @@
 
 .HeaderBanner {
     height: 100%;
-    width: 25%;
+    width: fit-content;
     display: flex;
     align-items: center;
+}
+
+.HeaderMenu {
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    top: 8.5%;
+    margin-left: -35%;
+    text-align: center;
 }
 
 .HeaderLogo {
     height: 100%;
 }
 
-.SearchBar {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.Search {
+    width: 100%;
 }
 
 .SearchBarForm {
-    height: 30%;
-    width: 70%;
     display: flex;
-    border: 1px solid black;
+    justify-content: center;
 }
 
 .SearchBarInput {
-    height: 100%;
-    width: 100%;
-    border: 0;
-    padding: 0;
-    padding-left: 5px;
-    box-sizing: border-box;
-    background-color: white;
+    width: 60%;
 }
 
 .SearchBarIcon {
-    height: 100%;
-    border-left: 1px solid black;
-    background-color: white;
+    height: 20px;
+    margin-left: 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
 }
 
 
@@ -96,16 +105,16 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .VideoSection {
-    width: 80%;
-    height: 60%;
+    width: 100%;
 }
 
 .VideoPlayer {
     width: 100%;
-    height: 100%;
+    height: 300px;
     border: 2px solid black;
     box-sizing: border-box;
 }
@@ -113,20 +122,20 @@
 .VideoInfo {
     border-left: 3px solid black;
     border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: -20px;
     padding: 5px 10px;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
 .Recommendations {
-    width: 45%;
-    box-sizing: border-box;
-    padding-left: 20px;
+    width: 100%;
 }
 
 /*Video List*/
 .VideoList {
     width: 100%;
-    padding-top: 30px;
 }
 
 .Wrapper {
@@ -163,6 +172,7 @@
 .WrapperItem {
     width: 100%;
     border: 2px solid black;
+    box-sizing: border-box;
     margin-bottom: 20px;
     display: flex;
     cursor: pointer;
@@ -184,4 +194,55 @@
 .PlaylistItemImg {
     object-fit: cover;
     width: 40%;
+}
+
+/*Responsive*/
+@media screen and (min-width: 650px) {
+    .VideoPlayer {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .HeaderMenu {
+        width: 40%;
+        left: 50%;
+        top: 1.5%;
+        margin-left: -20%;
+    }
+
+    .Content {
+        top: 10px;
+        width: 90%;
+    }
+
+    .ContentPlayer {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .Content {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Content {
+        width: 900px;
+    }
+
+    .VideoDetail {
+        flex-wrap: nowrap;
+    }
+
+    .VideoSection {
+        width: 80%;
+    }
+
+    .Recommendations {
+        width: 45%;
+        box-sizing: border-box;
+        padding-left: 20px;
+    }
 }

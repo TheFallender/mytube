@@ -7,18 +7,18 @@ import '../Style.css';
 const Header = props => {
     return (
         <div className="Header">
-            <a href="." className="HeaderBanner noDec">
-                <img className="HeaderLogo" src={logo} alt={"logo-pic"}/>
-                <h1 className="HeaderText"onClick={(e) => {props.updateResponse(""); props.clickedOnVideo("")}}>MyTube</h1>
-            </a>
-            <SearchBar updateResponse={props.updateResponse}/>
-            <div style={{height: "100%", width: "15%"}}>
-                <a href="https://github.com/TheFallender" style={{marginLeft: "60%"}}>
+            <div className="HeaderBack">
+                <a href="." className="HeaderBanner noDec">
+                    <img className="HeaderLogo" src={logo} alt={"logo-pic"}/>
+                    <h1 className="HeaderText"onClick={(e) => props.updateResponse(null)}>MyTube</h1>
+                </a>
+                <a className="HeaderGithub" href="https://github.com/TheFallender" style={{height: "100%"}}>
                     <img className="HeaderLogo" src={git} alt={"git-pic"}/>
                 </a>
             </div>
-            
-            
+            <div className="HeaderMenu">
+                <SearchBar updateResponse={props.updateResponse}/>
+            </div>
         </div>
     );
 }
