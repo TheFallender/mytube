@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import youtube, {baseParams} from '../../apis/youtube';
 import '../Style.css';
 import search from '../../media/search.png'
@@ -33,6 +33,20 @@ const SearchBar = props => {
         //Prevent page change
         return false;
     }
+
+
+    //First load make request
+    useEffect(() => {
+        youtube.get('/search', {
+            params: {
+              ...baseParams,
+              q: ""
+            }
+          }).then(response => {
+              updateResponse(response)
+        });
+        // eslint-disable-next-line
+    }, [])
 
     //Return
     return (
