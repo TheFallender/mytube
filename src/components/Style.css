@@ -179,7 +179,8 @@
 }
 
 .WrapperItemInfo {
-    padding-left: 10px
+    padding-left: 10px;
+    overflow: hidden;
 }
 
 .VideoItemImg {
