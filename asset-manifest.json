@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mytube/static/css/main.497ece68.chunk.css",
+    "main.css": "/mytube/static/css/main.ffe56a60.chunk.css",
     "main.js": "/mytube/static/js/main.9270285f.chunk.js",
     "main.js.map": "/mytube/static/js/main.9270285f.chunk.js.map",
     "runtime-main.js": "/mytube/static/js/runtime-main.7fbc1512.js",
@@ -8,9 +8,9 @@
     "static/js/2.cd8a29d3.chunk.js": "/mytube/static/js/2.cd8a29d3.chunk.js",
     "static/js/2.cd8a29d3.chunk.js.map": "/mytube/static/js/2.cd8a29d3.chunk.js.map",
     "index.html": "/mytube/index.html",
-    "precache-manifest.10b5759cc881d049840b154740ce77a0.js": "/mytube/precache-manifest.10b5759cc881d049840b154740ce77a0.js",
+    "precache-manifest.b17d94cfe448612b11947d0c96317963.js": "/mytube/precache-manifest.b17d94cfe448612b11947d0c96317963.js",
     "service-worker.js": "/mytube/service-worker.js",
-    "static/css/main.497ece68.chunk.css.map": "/mytube/static/css/main.497ece68.chunk.css.map",
+    "static/css/main.ffe56a60.chunk.css.map": "/mytube/static/css/main.ffe56a60.chunk.css.map",
     "static/js/2.cd8a29d3.chunk.js.LICENSE.txt": "/mytube/static/js/2.cd8a29d3.chunk.js.LICENSE.txt",
     "static/media/github.png": "/mytube/static/media/github.50cf4902.png",
     "static/media/wrap.png": "/mytube/static/media/wrap.6f8f62b3.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.7fbc1512.js",
     "static/js/2.cd8a29d3.chunk.js",
-    "static/css/main.497ece68.chunk.css",
+    "static/css/main.ffe56a60.chunk.css",
     "static/js/main.9270285f.chunk.js"
   ]
 }
