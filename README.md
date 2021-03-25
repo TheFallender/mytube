@@ -10,6 +10,6 @@ To install it you have to do the following:
 4. Type `yarn`
 5. Type `yarn start`
 
-You can also visit https://thefallender.github.io/mytube to see it working.
+~~You can also visit https://thefallender.github.io/mytube to see it working.~~ Site is offline now, you can still build it on local.
 
 You are able to find my API key in "youtube.js" but IT WON'T WORK ON LOCAL, you'll have to get your own API key at https://console.developers.google.com/apis
